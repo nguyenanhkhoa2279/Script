@@ -9,18 +9,19 @@ local Player = Players.LocalPlayer
 local PlayerMouse = Player:GetMouse()
 
 local redzlib = {
-	Themes = {
-NovaZ = {
-    ["Color Hub 1"] = ColorSequence.new({
-        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)),
-        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(0, 0, 0)),
-        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))
-    }),
-    ["Color Hub 2"] = Color3.fromRGB(0, 0, 0),
-    ["Color Stroke"] = Color3.fromRGB(255, 255, 255),
-    ["Color Theme"] = Color3.fromRGB(255, 255, 255),
-    ["Color Text"] = Color3.fromRGB(255, 255, 255),
-    ["Color Dark Text"] = Color3.fromRGB(170, 170, 170)
+Themes = {
+    NovaZ = {
+        ["Color Hub 1"] = ColorSequence.new({
+            ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 25, 25)),
+            ColorSequenceKeypoint.new(0.50, Color3.fromRGB(32.5, 32.5, 32.5)),
+            ColorSequenceKeypoint.new(1.00, Color3.fromRGB(25, 25, 25))
+        }),
+        ["Color Hub 2"] = Color3.fromRGB(30, 30, 30),
+        ["Color Stroke"] = Color3.fromRGB(255, 255, 255),
+        ["Color Theme"] = Color3.fromRGB(88, 101, 242),
+        ["Color Text"] = Color3.fromRGB(243, 243, 243),
+        ["Color Dark Text"] = Color3.fromRGB(180, 180, 180)
+    }
 }
 	Info = {
 		Version = "1.1.0"
