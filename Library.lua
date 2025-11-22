@@ -1,17 +1,3 @@
---[[
-
-███████╗██╗░░░░░██╗░░░██╗███████╗███╗░░██╗████████╗  ██████╗░██╗░░░░░██╗░░░██╗░██████╗
-██╔════╝██║░░░░░██║░░░██║██╔════╝████╗░██║╚══██╔══╝  ██╔══██╗██║░░░░░██║░░░██║██╔════╝
-█████╗░░██║░░░░░██║░░░██║█████╗░░██╔██╗██║░░░██║░░░  ██████╔╝██║░░░░░██║░░░██║╚█████╗░
-██╔══╝░░██║░░░░░██║░░░██║██╔══╝░░██║╚████║░░░██║░░░  ██╔═══╝░██║░░░░░██║░░░██║░╚═══██╗
-██║░░░░░███████╗╚██████╔╝███████╗██║░╚███║░░░██║░░░  ██║░░░░░███████╗╚██████╔╝██████╔╝
-╚═╝░░░░░╚══════╝░╚═════╝░╚══════╝╚═╝░░╚══╝░░░╚═╝░░░  ╚═╝░░░░░╚══════╝░╚═════╝░╚═════╝░
-
-A modified version of Fluent
-https://fluent-pl.us
-
-]]
-
 local Lighting = game:GetService("Lighting")
 local RunService = game:GetService("RunService")
 local LocalPlayer = game:GetService("Players").LocalPlayer
@@ -4464,7 +4450,7 @@ Components.Window = (function()
 			BackgroundTransparency = 1,
 			Size = UDim2.new(1, -36, 1, 0),
 			Position = UDim2.new(0, 8, 0, 0),
-			PlaceholderText = "Search...",
+			PlaceholderText = "Search with Ziram Hub",
 			PlaceholderColor3 = Color3.fromRGB(120, 120, 120),
 			ClearTextOnFocus = false,
 			Text = "",
@@ -5538,7 +5524,7 @@ ElementsTable.Dropdown = (function()
 				BackgroundTransparency = 1,
 				Size = UDim2.new(1, -36, 1, 0),
 				Position = UDim2.new(0, 8, 0, 0),
-				PlaceholderText = "Search...",
+				PlaceholderText = "Search with Ziram Hub",
 				PlaceholderColor3 = Color3.fromRGB(120, 120, 120),
 				ClearTextOnFocus = false,
 				Text = "",
