@@ -16,10 +16,10 @@ getgenv().Config = false  -- Thêm dòng này
 local DisableAnimation = game.Players.LocalPlayer.PlayerGui:FindFirstChild('TouchGui')
 
 local T1UIColor = {
-	["Border Color"] = Color3.fromRGB(40, 40, 40),
+	["Border Color"] = Color3.fromRGB(100, 100, 100),
 	["Click Effect Color"] = Color3.fromRGB(200, 200, 200),
 	["Setting Icon Color"] = Color3.fromRGB(200, 200, 200),
-	["Logo Image"] = "rbxassetid://123188942340057",
+	["Logo Image"] = "rbxassetid://135300070242371",
 	["Search Icon Color"] = Color3.fromRGB(200, 200, 200),
 	["Search Icon Highlight Color"] = Color3.fromRGB(255, 255, 255),
 	["GUI Text Color"] = Color3.fromRGB(240, 240, 240),
@@ -27,9 +27,9 @@ local T1UIColor = {
 	["Placeholder Text Color"] = Color3.fromRGB(150, 150, 150),
 	["Title Text Color"] = Color3.fromRGB(255, 255, 255),
 	["Background Main Color"] = Color3.fromRGB(30, 30, 30),
-	["Background 1 Color"] = Color3.fromRGB(40, 40, 40),
-	["Background 1 Transparency"] = 1,
-	["Background 2 Color"] = Color3.fromRGB(40, 40, 40),
+	["Background 1 Color"] = Color3.fromRGB(20, 20, 20),
+	["Background 1 Transparency"] = 0.3,
+	["Background 2 Color"] = Color3.fromRGB(50, 50, 50),
 	["Background 3 Color"] = Color3.fromRGB(40, 40, 40),
 	["Background Image"] = "",
 	["Page Selected Color"] = Color3.fromRGB(255, 255, 255),
@@ -53,11 +53,13 @@ local T1UIColor = {
 	["Text Stroke Transparency"] = .5
 }
 
+
+
 getgenv().UIColor = {
-	["Border Color"] = Color3.fromRGB(40, 40, 40),
+	["Border Color"] = Color3.fromRGB(100, 100, 100),
 	["Click Effect Color"] = Color3.fromRGB(200, 200, 200),
 	["Setting Icon Color"] = Color3.fromRGB(200, 200, 200),
-	["Logo Image"] = "rbxassetid://123188942340057",
+	["Logo Image"] = "rbxassetid://135300070242371",
 	["Search Icon Color"] = Color3.fromRGB(200, 200, 200),
 	["Search Icon Highlight Color"] = Color3.fromRGB(255, 255, 255),
 	["GUI Text Color"] = Color3.fromRGB(240, 240, 240),
